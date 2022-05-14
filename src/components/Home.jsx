@@ -47,7 +47,7 @@ export default function Home() {
     if(q2NumberOfQuestion === (currentQuestion2+1)){
         setQ2Status("COMPLETED");
         setConfeti(400);
-        setCurrentQuestion2(0);
+        setCurrentQuestion2(10);
     }else{
         setCurrentQuestion2(currentQuestion2+1);
     }
